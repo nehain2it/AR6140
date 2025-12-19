@@ -175,6 +175,7 @@ top: 32px;
 }
 
 .led-yellow {
+       border: 1px solid white;
 z-index: 20;
     background: #facc15;
     left: 0px;
@@ -186,6 +187,7 @@ z-index: 20;
 }
 
 .led-green {
+       border: 1px solid white;
      background: #1F7838;
     left: 56px;
     width: 11.3397216796875px;
@@ -198,7 +200,7 @@ z-index: 20;
 
 .ae-blackbox {
     position: absolute;
-    top: 11px;
+    top: 13px;
     left: 15px;
     width: 48.46px;
     height: 8.54px;
@@ -270,7 +272,7 @@ z-index: 20;
     z-index: 10;
     left: 26px;
     position: absolute;
-    top: 2px;
+    top: 4px;
     width: 25.540990829467773px;
     height: 8.54px;
     background: white;
@@ -311,7 +313,7 @@ z-index: 20;
      display: inline-block;
     position: absolute;
     top: 19px;
-    left: 460PX;
+    left: 466PX;
     width: 85.38041687011719px;
     height: 21px;
     background-color: #34BCEA;
@@ -321,7 +323,7 @@ z-index: 20;
      display: inline-block;
     position: absolute;
     top: 218px;
-    left: 460PX;
+    left: 466px;
     width: 85.38041687011719px;
     height: 21px;
     background-color: #34BCEA;
@@ -548,6 +550,7 @@ z-index: 10;
 }
 
 .led-yellow00 {
+    border: 1px solid white;
     z-index: 20;
     background: #facc15;
     left: 3px;
@@ -559,6 +562,7 @@ z-index: 10;
 }
 
 .led-green00 {
+       border: 1px solid white;
  background: #1F7838;
     left: 56px;
     width: 11.3397216796875px;
@@ -619,7 +623,7 @@ z-index: 10;
     height:21px ;
       position: relative;
     top: 0px;
-    left: -1px;
+    left: 0px;
     font-size: 16px;
     color: white;
 }
@@ -840,4 +844,64 @@ left: 20px;
 }
 .arrow3D {
   transform: rotate(270deg);
+}
+
+/* ===============================
+   RESPONSIVE WRAPPER (SAFE)
+   =============================== */
+
+.ar6140-responsive-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Large screens */
+@media (max-width: 1400px) {
+  .ar6140-responsive-wrapper {
+    transform: scale(0.9);
+    transform-origin: top center;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1200px) {
+  .ar6140-responsive-wrapper {
+    transform: scale(0.8);
+    transform-origin: top center;
+  }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .ar6140-responsive-wrapper {
+    transform: scale(0.7);
+    transform-origin: top center;
+  }
+}
+
+/* Small tablet */
+@media (max-width: 768px) {
+  .ar6140-responsive-wrapper {
+    transform: scale(0.6);
+    transform-origin: top center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .ar6140-responsive-wrapper {
+    transform: scale(0.5);
+    transform-origin: top center;
+  }
+}
+
+/* Extra small mobile */
+@media (max-width: 420px) {
+  .ar6140-responsive-wrapper {
+    transform: scale(0.45);
+    transform-origin: top center;
+  }
 }

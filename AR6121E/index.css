@@ -264,7 +264,8 @@ background-color: #D9D9D9;
 }
 
 .AR121-sec3foot {
-    top: 84px;
+    left: -76px;
+    top: 136px;
     position: relative;
     width: 85.38px;
     height: 99.38px;
@@ -766,6 +767,7 @@ background-color: #D9D9D9; */
 }
 
 .led-yellow {
+     border: 1px solid white;
     z-index: 20;
     background: #facc15;
     left: 6px;
@@ -777,6 +779,7 @@ background-color: #D9D9D9; */
 }
 
 .led-green {
+     border: 1px solid white;
     background: #07be26;
     left: 59px;
     width: 11.3397216796875px;
@@ -833,7 +836,7 @@ background-color: #D9D9D9; */
 /* ................................................................ */
 .led-gray11 {
 
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: 36px;
@@ -844,7 +847,7 @@ background-color: #D9D9D9; */
 }
 
 .led-green11 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: 56px;
@@ -929,7 +932,7 @@ background-color: #D9D9D9; */
 
 .led-gray12 {
 
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: 213px;
@@ -940,7 +943,7 @@ background-color: #D9D9D9; */
 }
 
 .led-green12 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: 232px;
@@ -1007,7 +1010,7 @@ background-color: #D9D9D9; */
 
 .led-gray13 {
 
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: -39px;
@@ -1018,7 +1021,7 @@ background-color: #D9D9D9; */
 }
 
 .led-green13 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: -20px;
@@ -1084,7 +1087,7 @@ background-color: #D9D9D9; */
 /* -------------------------------------------------- */
 .led-gray14 {
 
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: 139px;
@@ -1095,7 +1098,7 @@ background-color: #D9D9D9; */
 }
 
 .led-green14 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: -272px;
@@ -1159,7 +1162,7 @@ background-color: #D9D9D9; */
 
 /* /////////////////////////////////////////////////// */
 .led-gray15 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: -112px;
@@ -1170,7 +1173,7 @@ background-color: #D9D9D9; */
 }
 
 .led-green15 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     left: 92px;
@@ -1235,7 +1238,7 @@ background-color: #D9D9D9; */
 
 /* ...............................................................  */
 .led-gray16 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: 36px;
@@ -1246,7 +1249,7 @@ background-color: #D9D9D9; */
 }
 
 .led-green16 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     left: -55px;
@@ -1311,7 +1314,7 @@ background-color: #D9D9D9; */
 
 /* ///////////////////////////////////////////////////////////// */
 .led-gray17 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: 213px;
@@ -1322,7 +1325,7 @@ background-color: #D9D9D9; */
 }
 
 .led-green17 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     left: -231px;
@@ -1387,7 +1390,7 @@ background-color: #D9D9D9; */
 
 /* //////////////////////////////////////////////////////// */
 .led-gray18 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: -41px;
@@ -1398,7 +1401,7 @@ background-color: #D9D9D9; */
 }
 
 .led-green18 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     left: 21px;
@@ -1464,7 +1467,7 @@ background-color: #D9D9D9; */
 
 /* //////////////////////////////////////////////////////////////// */
 .led-gray19 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: 138px;
@@ -1475,7 +1478,7 @@ background-color: #D9D9D9; */
 }
 
 .led-green19 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     left: 272px;
@@ -1541,7 +1544,7 @@ background-color: #D9D9D9; */
 
 /* //////////////////////////////////////////////////////// */
 .led-gray20 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     right: -112px;
@@ -1552,7 +1555,7 @@ background-color: #D9D9D9; */
 }
 
 .led-green20 {
-    border: 2px solid white;
+    border: 1px solid white;
     background: gray;
     position: relative;
     left: 92px;
@@ -1781,6 +1784,7 @@ background-color: #D9D9D9; */
     font-family: Arial, sans-serif;
 }
 
+
 /* ICON WRAPPER */
 .AE121-icons {
     position: relative;
@@ -1895,6 +1899,7 @@ background-color: #D9D9D9; */
 }
 
 .led-yellow2 {
+    border: 1px solid white;
     z-index: 20;
     background: #facc15;
     left: 6px;
@@ -1906,6 +1911,7 @@ background-color: #D9D9D9; */
 }
 
 .led-green2 {
+     border: 1px solid white;
     background: #07be26;
     left: 59px;
     width: 11.3397216796875px;
@@ -2060,4 +2066,59 @@ background-color: #D9D9D9; */
     position: relative;
     left: -29px;
     top: 4px;
+}
+
+/* =====================================
+   RESPONSIVE WRAPPER (NO CSS CHANGE)
+   ===================================== */
+
+.AE121-responsive-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-x: auto;
+  transform-origin: top center;
+}
+
+/* Desktop */
+@media (max-width: 1600px) {
+  .AE121-responsive-wrapper {
+    transform: scale(0.9);
+  }
+}
+
+/* Laptop */
+@media (max-width: 1400px) {
+  .AE121-responsive-wrapper {
+    transform: scale(0.8);
+  }
+}
+
+/* Tablet */
+@media (max-width: 1200px) {
+  .AE121-responsive-wrapper {
+    transform: scale(0.7);
+  }
+}
+
+/* Small tablet */
+@media (max-width: 992px) {
+  .AE121-responsive-wrapper {
+    transform: scale(0.6);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .AE121-responsive-wrapper {
+    transform: scale(0.5);
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .AE121-responsive-wrapper {
+    transform: scale(0.42);
+  }
 }
