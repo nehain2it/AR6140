@@ -7,6 +7,7 @@
   justify-content: space-between;
   width: 1872px;
   border: 2px solid black;
+  border-bottom: none;
   margin: 3px 13px 25px 17px;
 }
 
@@ -2131,11 +2132,10 @@ background-color: #D9D9D9; */
   display: flex;
   justify-content: space-between;
   width: 1872px;
-
-  border: 2px solid black;
 }
 
 .AR121-header-pro2 {
+  position: relative;
   background-color: white;
   width: 1702.6534423828125px;
   height: 267.617554px;
@@ -3402,7 +3402,6 @@ background-color: #D9D9D9; */
   display: flex;
   justify-content: space-between;
   width: 1872px;
-  border: 2px solid black;
   margin: 41px 11px 39px 13px;
 }
 
@@ -3467,6 +3466,7 @@ background-color: #D9D9D9; */
 }
 
 .main-box-pro4 {
+  position: relative;
   background-color: white;
   width: 1702.6534423828125px;
   height: 267.617554px;
@@ -3997,6 +3997,7 @@ background-color: #D9D9D9; */
 
 
 .box2-pro4 .main-box2-pro4 {
+  position: relative;
   background-color: #504d4c;
   padding: 0;
 }
@@ -4345,8 +4346,8 @@ background-color: #D9D9D9; */
   justify-content: space-evenly;
   align-items: center;
   padding: 12px;
-  position: relative;
-  top: -417px;
+  position: absolute;
+  top: 169px;
   left: 1399px;
 }
 
@@ -4426,8 +4427,8 @@ background-color: #D9D9D9; */
   background-color: gray;
   width: 68px;
   height: 95.75px;
-  position: relative;
-  top: -335px;
+  position: absolute;
+  top: 48px;
   left: 1585px;
   z-index: 0;
   border-radius: 15px;
@@ -4565,9 +4566,9 @@ background-color: #D9D9D9; */
   height: 88.38041687011751px;
   border: 3px solid #747578;
   background: #EAB5BB;
-  position: relative;
+  position: absolute;
   left: 1485px;
-  top: -427px;
+  top: 54px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4587,16 +4588,16 @@ background-color: #D9D9D9; */
   width: 16px;
   height: 16px;
   position: absolute;
-  top: 700px;
-  right: 348px;
+    top: 80px;
+    right: 237px;
 }
 
 .imagecon1-pro4 {
   position: absolute;
   width: 12.000000953674316px;
   height: 28.000000000000025px;
-  top: 665px;
-  right: 127px;
+    top: 40px;
+    right: 19px;
 
 
 }
@@ -4606,8 +4607,8 @@ background-color: #D9D9D9; */
   position: absolute;
   width: 12.000000953674316px;
   height: 28.000000000000025px;
-  top: 715px;
-  right: 346px;
+    top: 96px;
+    right: 234px;
 
 
 }
@@ -4624,15 +4625,14 @@ background-color: #D9D9D9; */
 }
 
 .image-pro4 {
-  z-index: 0;
-  width: 179px;
-  height: 68px;
-  background-color: #FFFFFF;
-  position: absolute;
-  left: 147px;
-  top: 1103px;
-  ;
-  border-radius: 8px;
+     z-index: 0;
+    width: 179px;
+    height: 68px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 51px;
+    top: 184px;
+    border-radius: 8px;
 }
 
 .image-war-pro4 {
@@ -4661,7 +4661,7 @@ background-color: #D9D9D9; */
   height: 81.56249237060547px;
   position: absolute;
   left: 940px;
-  top: 977px;
+  top: 50px;
 }
 
 .image-war-pro43 {
@@ -4671,7 +4671,7 @@ background-color: #D9D9D9; */
   background-color: black;
   position: absolute;
   left: 574px;
-  top: 1007px;
+  top: 70px;
 }
 
 .image-pro41 {
@@ -4681,7 +4681,7 @@ background-color: #D9D9D9; */
   background-color: #FFFFFF;
   position: absolute;
   left: 543px;
-  top: 1060px;
+  top: 125px;
 
 }
 
@@ -4692,7 +4692,7 @@ background-color: #D9D9D9; */
   background-color: #272727;
   position: absolute;
   left: 520px;
-  top: 1070px;
+  top: 140px;
 
 }
 
@@ -4703,7 +4703,7 @@ background-color: #D9D9D9; */
   background-color: #272727;
   position: absolute;
   left: 728px;
-  top: 1070px;
+  top: 140px;
 
 }
 
@@ -4768,8 +4768,8 @@ background-color: #D9D9D9; */
 
 .rightbox-pro4 {
   position: absolute;
-  top: 1014px;
-  right: 200px;
+    top: 88px;
+    right: 100px;
   border: 2px solid black;
   width: 141.96832275390625px;
   height: 113.57466888427734px;
@@ -4870,10 +4870,10 @@ background-color: #D9D9D9; */
   justify-content: space-between;
   width: 1872px;
   height: 264.00042724609375;
-  border: 2px solid black;
 }
 
 .AR121-header-pro3 {
+  position: relative;
   background-color: white;
   width: 1702.6534423828125px;
   height: 267.617554px;
@@ -5716,10 +5716,11 @@ background-color: #D9D9D9; */
   display: flex;
   justify-content: space-between;
   width: 1872px;
-  border: 2px solid black;
+
 }
 
 .AR121-header-pro5 {
+  position: relative;
   background-color: white;
   width: 1702.6534423828125px;
   height: 267.617554px;
